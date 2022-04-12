@@ -30,7 +30,10 @@ namespace Pilot
     {
         return SceneManager::getInstance().imageFromHandle(handle);
     }
-    void addReleaseMeshHandle(MeshHandle handle) { SceneManager::getInstance().addReleaseMeshHandle(handle); }
+    void addReleaseMeshHandle(MeshHandle handle) 
+    { 
+        SceneManager::getInstance().addReleaseMeshHandle(handle); 
+    }
     void addReleaseMaterialHandle(PMaterialHandle handle)
     {
         SceneManager::getInstance().addReleaseMaterialHandle(handle);
